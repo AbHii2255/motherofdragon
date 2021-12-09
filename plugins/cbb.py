@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>ιAм Jυѕт A Aυтo Fɪʟᴇ Sʜᴀʀᴇ Boт..!🤩 Tнιѕ Boαт ιѕ Mαde Eхclυѕιvely For Tнe👉 Mαllυ Hυв Movιeѕ</b>",
+            text = f"<b>ιAм Jυѕт A Aυтo Fɪʟᴇ Sʜᴀʀᴇ Boт..!🤩 Tнιѕ Boαт ιѕ Mαde Eхclυѕιvely For Tнe👉 Mαllυ Hυв Movιeѕ Groυp</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -19,8 +19,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                         InlineKeyboardButton('👉 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/Malluhubbmovies')   
                     ],
                     [
-                        InlineKeyboardButton('Dєνєℓσρєя', url='https://t.me//Abhii2255'),
-                        InlineKeyboardButton("🔒 Сʟоѕе", callback_data = "close")
+                        InlineKeyboardButton('👨🏻‍🔧 𝐂𝐫𝐞𝐚𝐭𝐨𝐫', url='https://t.me//Abhii2255'),
+                        InlineKeyboardButton("🔒 𝐂𝐥𝐨𝐬𝐞", callback_data = "close")
                     ]
                 ]
             )
