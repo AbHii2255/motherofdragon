@@ -10,16 +10,17 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"ιAм Jυѕт A Aυтo Fɪʟᴇ Sʜᴀʀᴇ Boт..!🤩 Tнιѕ Boαт ιѕ Mαde Eхclυѕιvely For Tнe Mαllυ Hυв Movιeѕ",
+            text = f"<b>ιAм Jυѕт A Aυтo Fɪʟᴇ Sʜᴀʀᴇ Boт..!🤩 Tнιѕ Boαт ιѕ Mαde Eхclυѕιvely For Tнe👉 Mαllυ Hυв Movιeѕ</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('🎥 Channel', url='https://t.me/Mallushubb'),
-                        InlineKeyboardButton('🎥 Group', url='https://t.me/Malluhubbmovies')   
+                        InlineKeyboardButton('👉 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/Mallushubb'),
+                        InlineKeyboardButton('👉 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/Malluhubbmovies')   
                     ],
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton('Dєνєℓσρєя', url='https://t.me//Abhii2255')
+                        InlineKeyboardButton("🔒 Сʟоѕе", callback_data = "close")
                     ]
                 ]
             )
